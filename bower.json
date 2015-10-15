@@ -7,7 +7,7 @@
     "Brent Burgoyne <bburgoyne@instructure.com"
   ],
   "description": "An accessible select box component for React.",
-  "main": "lib/select-box.js",
+  "main": ["./dist/react-select-box.js", "./dist/react-select-box.min.js"],
   "moduleType": [
     "amd",
     "globals",
