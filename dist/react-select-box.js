@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"));
+		module.exports = factory(require("React"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react"], factory);
+		define(["React"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactSelectBox"] = factory(require("react"));
+		exports["ReactSelectBox"] = factory(require("React"));
 	else
-		root["ReactSelectBox"] = factory(root["react"]);
+		root["ReactSelectBox"] = factory(root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -44,7 +44,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -449,7 +449,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
